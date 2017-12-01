@@ -223,6 +223,6 @@
 
 
 "alert_common_request_failed" = "请求失败";
-"alert_core_bluetooth_is_not_power_on" = "蓝牙未打开牙！";
+"alert_core_bluetooth_is_not_power_on" = "蓝牙未打开！";
 
 

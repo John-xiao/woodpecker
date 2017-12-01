@@ -46,18 +46,21 @@
     [WPNetInterface getUserinfoWithUserId:kDefaultObjectForKey(USER_DEFAULT_USER_ID) password:kDefaultObjectForKey(USER_DEFAULT_ACCOUNT_TOKEN) success:^(NSDictionary* userDic) {
         if (userDic) {
             kDefaultSetObjectForKey(userDic, USER_DEFAULT_ACCOUNT_USER);
-            [self getProfile];
-            [self getDevice];
-        }else{
-            kDefaultRemoveForKey(USER_DEFAULT_ACCOUNT_USER);
         }
-    } failure:^(NSError *error) {
+        [self getProfile];
+        [self getDevice];
+        [self getPeriods];
+        [self getEvents];
+        [self getTemperatures];
+        [self checkVersion];
         
+    } failure:^(NSError *error) {
+        [self getPeriods];
+        [self getEvents];
+        [self getTemperatures];
+        [self checkVersion];
     }];
-    [self getPeriods];
-    [self getEvents];
-    [self getTemperatures];
-    [self checkVersion];
+
 }
 
 - (void)getProfile{
