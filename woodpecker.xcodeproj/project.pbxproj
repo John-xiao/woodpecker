@@ -241,6 +241,14 @@
 		CC7722A11F87128E007D83B5 /* WPUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7722A01F87128E007D83B5 /* WPUserModel.m */; };
 		CC7722A91F87136D007D83B5 /* WPMenstrualRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7722A81F87136D007D83B5 /* WPMenstrualRecordModel.m */; };
 		CC7722B21F87167D007D83B5 /* WPHardwareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7722B11F87167D007D83B5 /* WPHardwareHelper.m */; };
+		CC792CB91FD582DD00E5EAE3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC792CB61FD582D200E5EAE3 /* CoreTelephony.framework */; };
+		CC792CBB1FD582E600E5EAE3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC792CBA1FD582E600E5EAE3 /* libz.tbd */; };
+		CC792CBE1FD5831800E5EAE3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC792CBD1FD5831800E5EAE3 /* libsqlite3.tbd */; };
+		CC792CC01FD5833B00E5EAE3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC792CBF1FD5833500E5EAE3 /* SystemConfiguration.framework */; };
+		CC792DCF1FD584F200E5EAE3 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC792D931FD584F200E5EAE3 /* UMCommon.framework */; };
+		CC792DD01FD584F200E5EAE3 /* UMErrorCatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC792D941FD584F200E5EAE3 /* UMErrorCatch.framework */; };
+		CC792DD11FD584F200E5EAE3 /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC792D951FD584F200E5EAE3 /* UMAnalytics.framework */; };
+		CC792DD41FD5861000E5EAE3 /* WPUMengManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC792DD31FD5861000E5EAE3 /* WPUMengManager.m */; };
 		CC7DA2301F762CBA00F56072 /* WPThermometerBindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7DA22F1F762CBA00F56072 /* WPThermometerBindViewController.m */; };
 		CC7DA2371F762EA400F56072 /* bind-ima@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7DA2311F762EA400F56072 /* bind-ima@2x.png */; };
 		CC7DA2381F762EA400F56072 /* bind-ima@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7DA2321F762EA400F56072 /* bind-ima@3x.png */; };
@@ -706,6 +714,18 @@
 		CC7722A81F87136D007D83B5 /* WPMenstrualRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPMenstrualRecordModel.m; sourceTree = "<group>"; };
 		CC7722B01F87167D007D83B5 /* WPHardwareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPHardwareHelper.h; sourceTree = "<group>"; };
 		CC7722B11F87167D007D83B5 /* WPHardwareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPHardwareHelper.m; sourceTree = "<group>"; };
+		CC792CB61FD582D200E5EAE3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CC792CBA1FD582E600E5EAE3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CC792CBD1FD5831800E5EAE3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CC792CBF1FD5833500E5EAE3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CC792CC11FD5849400E5EAE3 /* UMErrorCatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMErrorCatch.framework; path = woodpecker/Resource/UMComponents/UMErrorCatch.framework; sourceTree = "<group>"; };
+		CC792CC21FD5849400E5EAE3 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = woodpecker/Resource/UMComponents/UMCommon.framework; sourceTree = "<group>"; };
+		CC792CC31FD5849400E5EAE3 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMAnalytics.framework; path = woodpecker/Resource/UMComponents/UMAnalytics.framework; sourceTree = "<group>"; };
+		CC792D931FD584F200E5EAE3 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		CC792D941FD584F200E5EAE3 /* UMErrorCatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMErrorCatch.framework; sourceTree = "<group>"; };
+		CC792D951FD584F200E5EAE3 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		CC792DD21FD5861000E5EAE3 /* WPUMengManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPUMengManager.h; sourceTree = "<group>"; };
+		CC792DD31FD5861000E5EAE3 /* WPUMengManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPUMengManager.m; sourceTree = "<group>"; };
 		CC7DA22E1F762CBA00F56072 /* WPThermometerBindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPThermometerBindViewController.h; sourceTree = "<group>"; };
 		CC7DA22F1F762CBA00F56072 /* WPThermometerBindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPThermometerBindViewController.m; sourceTree = "<group>"; };
 		CC7DA2311F762EA400F56072 /* bind-ima@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bind-ima@2x.png"; sourceTree = "<group>"; };
@@ -776,9 +796,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC792CC01FD5833B00E5EAE3 /* SystemConfiguration.framework in Frameworks */,
+				CC792DCF1FD584F200E5EAE3 /* UMCommon.framework in Frameworks */,
+				CC792CBE1FD5831800E5EAE3 /* libsqlite3.tbd in Frameworks */,
+				CC792DD01FD584F200E5EAE3 /* UMErrorCatch.framework in Frameworks */,
+				CC792CB91FD582DD00E5EAE3 /* CoreTelephony.framework in Frameworks */,
 				C1D89C5A1F5D3DF800DA4D92 /* MiPassport.framework in Frameworks */,
 				CC1C4FD31F7BDA5600D4CAE8 /* Charts.framework in Frameworks */,
 				135676341C8E6BA53718F116 /* libPods-woodpecker.a in Frameworks */,
+				CC792DD11FD584F200E5EAE3 /* UMAnalytics.framework in Frameworks */,
+				CC792CBB1FD582E600E5EAE3 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1082,6 +1109,8 @@
 				C16ACF151F9C9E3F006E6EB9 /* WPPeriodCountModel.m */,
 				C1B889AB1F9CE7F30044346D /* WPDayInfoInPeriod.h */,
 				C1B889AC1F9CE7F30044346D /* WPDayInfoInPeriod.m */,
+				CC792DD21FD5861000E5EAE3 /* WPUMengManager.h */,
+				CC792DD31FD5861000E5EAE3 /* WPUMengManager.m */,
 			);
 			path = CommonManager;
 			sourceTree = "<group>";
@@ -1293,6 +1322,7 @@
 		C1FE07F81F5BCA100054A254 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				CC792CCD1FD584F200E5EAE3 /* UMComponents */,
 				CC71C9AB1FB6DBD500C3337A /* html */,
 				C1D89C5B1F5D3E1300DA4D92 /* MiPassport.bundle */,
 				C1FE07F91F5BCA100054A254 /* image */,
@@ -1506,9 +1536,26 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		CC792CCD1FD584F200E5EAE3 /* UMComponents */ = {
+			isa = PBXGroup;
+			children = (
+				CC792D931FD584F200E5EAE3 /* UMCommon.framework */,
+				CC792D941FD584F200E5EAE3 /* UMErrorCatch.framework */,
+				CC792D951FD584F200E5EAE3 /* UMAnalytics.framework */,
+			);
+			path = UMComponents;
+			sourceTree = "<group>";
+		};
 		F54DD6FADDEF2E5E0113AD58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC792CC31FD5849400E5EAE3 /* UMAnalytics.framework */,
+				CC792CC21FD5849400E5EAE3 /* UMCommon.framework */,
+				CC792CC11FD5849400E5EAE3 /* UMErrorCatch.framework */,
+				CC792CBF1FD5833500E5EAE3 /* SystemConfiguration.framework */,
+				CC792CBD1FD5831800E5EAE3 /* libsqlite3.tbd */,
+				CC792CBA1FD582E600E5EAE3 /* libz.tbd */,
+				CC792CB61FD582D200E5EAE3 /* CoreTelephony.framework */,
 				C1D89C591F5D3DF800DA4D92 /* MiPassport.framework */,
 				6C49084367002DCB90033864 /* libPods-woodpecker.a */,
 			);
@@ -1888,6 +1935,7 @@
 				C156303F1F5065FE00D6CC30 /* XJFDBOperator.m in Sources */,
 				CC2839281F8CF8C4008A2E9F /* WPNetInterface.m in Sources */,
 				CC71C9B91FB6E4FC00C3337A /* WPSafetyViewController.m in Sources */,
+				CC792DD41FD5861000E5EAE3 /* WPUMengManager.m in Sources */,
 				CC744E5A1F83194B00EDA2E3 /* WPAboutViewController.m in Sources */,
 				CC1C4FDD1F7BDAB200D4CAE8 /* BalloonMarker.swift in Sources */,
 				CC7DA2541F7636FC00F56072 /* WPThermometerRemoveViewController.m in Sources */,
@@ -2085,10 +2133,53 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/UMSocialUI",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Twitter",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/DingDing",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Facebook",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Linkedin",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Kakao",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/QQ/QQSDK",
 				);
 				INFOPLIST_FILE = woodpecker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Pocket",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Twitter",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Pinterest",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/SMS",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/EverNote",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Flickr",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/YiXin",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Douban",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/YouDao",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Renren",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/DingDing",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/AlipayShare",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Tumblr",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/GooglePlus",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/WeChat/WechatSDK",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Facebook",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Line",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/VKontakte",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/DropBox",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/LaiWang",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/TencentWeibo",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Instagram",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Sina/SinaSDK",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Email",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/WhatsApp",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Linkedin",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Kakao",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/UMSocialSDKPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.edt.admin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -2116,10 +2207,53 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/UMSocialUI",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Twitter",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/DingDing",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Facebook",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Linkedin",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Kakao",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/QQ/QQSDK",
 				);
 				INFOPLIST_FILE = woodpecker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Pocket",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Twitter",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Pinterest",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/SMS",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/EverNote",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Flickr",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/YiXin",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Douban",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/YouDao",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Renren",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/DingDing",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/AlipayShare",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Tumblr",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/GooglePlus",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/WeChat/WechatSDK",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Facebook",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Line",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/VKontakte",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/DropBox",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/LaiWang",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/TencentWeibo",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Instagram",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Sina/SinaSDK",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Email",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/WhatsApp",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Linkedin",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/Kakao",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/woodpecker/Resource/UMComponents/UMShare/UMSocialSDKPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.edt.admin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

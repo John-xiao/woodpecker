@@ -14,6 +14,7 @@
 #import "XJFServerManager.h"
 #import "WPDatabaseTableManager.h"
 #import "WPAccountManager.h"
+#import "WPUMengManager.h"
 
 @interface AppDelegate ()
 
@@ -31,7 +32,7 @@
     self.window.backgroundColor = kColor_10;
     [initServer load];
     [[WPDatabaseTableManager defaultInstance] initDatabase];
-
+    [[WPUMengManager defaultInstance] configureUMeng];
     // Override point for customization after application launch.
     if ([[WPAccountManager defaultInstance] isLogin]) {
         //主页
